@@ -1,11 +1,23 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none !important;
+    border: none;
+    list-style: none;
+    scroll-behavior: smooth;
 }
 
-.content{
-    height: 75vh;
+#mainNavbar{
+     position: fixed;
+     width: 100vw;
 }
+.content{
+    height: 100vh;
+}
+.PresentacionMain{
+    font-size: 7vw;
+}
+
 .container-fluid1{
     padding: 0;
 }
@@ -15,22 +27,98 @@
 }
 
 .Container-Tech{
-    height: 80vh;
+    height: fit-content;
 }
 .Footer{
-    height: 10vh;
+    height: fit-content;
 }
 
 .RecuadroLenguajes{
-    height: 30vh;
-    margin-top: 10vh;
-}
-
-.Container-Cards{
-    position: relative;
-    top: -300px;
+    height: fit-content;
 }
 
 .containerDescripcion{
-    height: 40vh;
+    height: 45vh;
 }
+
+.container-fluidSobreMi{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.imgP1{
+    width: 100%;
+    height: 100%;
+    background-image:url("../src/assets/CTMbg.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+.imgP2{
+    width: 100%;
+    height: 100%;
+    background-image:url("../src/assets/Bunny.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.imgP3{
+    width: 100%;
+    height: 100%;
+    background-image:url("../src/assets/RocketMouse.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+
+.divAn{
+
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.animate{
+    width: 32px;
+    height: 32px;
+    background: url(./assets/pipo-nekonin010.png);
+    /* Steps tiene que ser igual a numero de frames */
+    animation: walk 0.6s steps(2) infinite;
+    scale: 7;
+}
+
+@keyframes walk {
+
+    0%{
+        background-position: 0 0;
+    } 
+
+    100%{
+        background-position: 64px 0px;
+    }
+
+    
+}
+
+@media screen and (max-width:20000px){
+    .PresentacionMain{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .PresentacionMain{
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .PresentacionMain{
+        font-size: 10vw;
+    }
+}
+

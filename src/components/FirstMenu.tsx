@@ -1,19 +1,17 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import paisaje from "../assets/paisaje2.jpg"
-import Cards from './Cards'
+import foto1 from "../assets/program1.jpg"
 import Descripcion from './Descripcion'
 
 const FirstMenu = () => {
     return (
 
         <div className="container-fluid container-fluid1" >
-            <Parallax strength={-500} bgImage={paisaje}
+            <Parallax strength={-500} bgImage={foto1}
                 blur={{ min: -9, max: 10 }}>
-                <div className="content">
+                <div className="content d-flex justify-content-center align-items-center">
                     <Descripcion />
-                </div>
-                <Cards/>
+                </div>            
             </Parallax>
         </div>
     )

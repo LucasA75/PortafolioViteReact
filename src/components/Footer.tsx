@@ -1,14 +1,9 @@
 import React from 'react'
-
 const Footer = () => {
   return (
-    <div className="container-fluid text-bg-dark Footer text-center">
-      <h4 className=''>
-        Hola este es el footer
-      </h4>
-      <div className='container-xl'>
-        Agregare los iconos con los respectivos enlaces
-        <a href='https://github.com/LucasA75'>logito de github</a>
+    <div className="container-fluid text-bg-dark text-center pb-2 border-top border-light">
+      <div className='container-xl mt-2'>
+      <p className=''>®Lucas Acevedo - Portafolio 2023</p>
       </div>
     </div>
   )

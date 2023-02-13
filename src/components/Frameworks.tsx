@@ -2,8 +2,8 @@ import React from 'react'
 
 const Frameworks = () => {
     return (
-        <div className='container Container-Tech'>
-            <div className='container RecuadroLenguajes text-bg-dark text-center d-flex flex-column justify-content-around rounded-4 bg-opacity-75'>
+        <div className='container px-1 Container-Tech'>
+            <div className='container RecuadroLenguajes text-bg-secondary text-center d-flex flex-column justify-content-around rounded-4 bg-opacity-50'>
                 <h3 className='p-1 mt-2'>
                     Frameworks
                 </h3>
