@@ -14,7 +14,7 @@ const Frameworks = () => {
                     </div>
                     <div className='col-lg-5'>
                         <div className="progress" role="progressbar" aria-label="Animated striped example">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "65%" }}></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "35%" }}>35%</div>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Frameworks = () => {
                     </div>
                     <div className='col-lg-5'>
                         <div className="progress" role="progressbar" aria-label="Animated striped example">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "55%" }}></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "45%" }}>45%</div>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Frameworks = () => {
                     </div>
                     <div className='col-lg-5'>
                         <div className="progress" role="progressbar" aria-label="Animated striped example">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "40%" }}></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "30%" }}>30%</div>
                         </div>
                     </div>
                 </div>
@@ -44,17 +44,7 @@ const Frameworks = () => {
                     </div>
                     <div className='col-lg-5'>
                         <div className="progress" role="progressbar" aria-label="Animated striped example">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "5%" }}></div>
-                        </div>
-                    </div>
-                </div>
-                <div className='row m-3'>
-                    <div className='col-lg-5 text-center'>
-                        Django
-                    </div>
-                    <div className='col-lg-5'>
-                        <div className="progress" role="progressbar" aria-label="Animated striped example">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "2%" }}></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ "width": "5%" }}>5%</div>
                         </div>
                     </div>
                 </div>

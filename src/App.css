@@ -85,7 +85,7 @@
 .animate{
     width: 32px;
     height: 32px;
-    background: url(./assets/pipo-nekonin010.png);
+    background: url(./assets/pipo-nekonin006.png);
     /* Steps tiene que ser igual a numero de frames */
     animation: walk 0.6s steps(2) infinite;
     scale: 7;

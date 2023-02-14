@@ -25,7 +25,7 @@ const MasSobremi = () => {
                                 Programar VideoJuegos 🎮
                             </li>
                             <li>
-                                Subir Cerros 🏞
+                                Hacer Trekking 🏞
                             </li>
                             <li>
                                 Jugar juegos indies 🕹
