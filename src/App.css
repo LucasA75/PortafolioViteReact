@@ -12,7 +12,7 @@
      width: 100vw;
 }
 .content{
-    height: 100vh;
+    height: 95vh;
 }
 .PresentacionMain{
     font-size: 7vw;
@@ -80,6 +80,35 @@
 
     height: 200px;
     margin-bottom: 40px;
+}
+
+.Flecha{
+    width:6vh;
+    position: relative;
+}
+
+.ScrollP{
+    top: 15px;
+}
+
+.ScrollAni{
+    animation: move 2s infinite;
+    position: relative;
+    bottom: 50px;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0,0px);
+    }
+    
+    50%{
+        transform: translate(0,40px);
+    }
+
+    100%{
+        transform: translate(0,0px);
+    }
 }
 
 .animate{

@@ -1,5 +1,5 @@
 import React from 'react'
-import { WindupChildren, useWindupString, Pace } from "windups";
+import { WindupChildren, Pace } from "windups";
 import 'animate.css';
 import 'react-typewriting-effect/dist/index.css'
 
@@ -29,9 +29,11 @@ const Descripcion = () => {
                             })}
                         </Pace>
                     </WindupChildren>
+                    <div className="d-grid gap-2 col-6 mt-4">
+                        <a className="btn btn-primary" href="https://drive.google.com/file/d/1KFmX8jYJBmBE0gaGjcLhuYvwn2-mvv9X/view?usp=share_link" target='_blank' rel='noopener noreferrer' >Mi CV</a>  
+                    </div>
                 </div>
             </div>
-
 
         </div>
     )
