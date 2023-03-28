@@ -3,7 +3,7 @@ const Proyectos = () => {
     return (
         <div className='container-fluid text-bg-dark pb-3'>
             <a id='Proyectos'></a>
-            <h2 className='text-center pt-2'>
+            <h2 className='text-center pt-2 fs-1'>
                 Proyectos
             </h2>
             <div className="container-lg">
