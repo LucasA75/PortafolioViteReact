@@ -6,7 +6,7 @@ const Lenguajes = () => {
   return (
     <div className='text-bg-dark'>
       <a id='Habilidades'></a>
-      <h2 className='text-center mb-4'>Habilidades</h2>
+      <h2 className='text-center mb-4 fs-1'>Habilidades</h2>
         <div className='container-lg Container-Tech pb-5'>
           <div className='container RecuadroLenguajes text-bg-secondary text-center d-flex flex-column justify-content-around rounded-4 bg-opacity-50 mb-5'>
             <h3 className='p-1 pt-2'>

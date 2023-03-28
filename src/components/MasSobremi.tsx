@@ -5,7 +5,7 @@ const MasSobremi = () => {
         <div className="container-fluid container-fluidSobreMi text-bg-dark ">
             <a id='Sobremi'></a>
             <div className="mb-3">
-            <h2 className='text-center'>
+            <h2 className='text-center fs-1'>
                     Mas sobre mi
                 </h2>
             </div>
